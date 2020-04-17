@@ -6,8 +6,71 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link href="index.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+
+<h1>заголовок</h1>
+<h2>заголовок</h2>
+<p id="ideveloper">Текст в середені <br> тега p</p>
+<p><b>текст жирний</b></p>
+<p><em>текст курсивом</em></p>
+<a href="https://www.youtube.com/watch?v=42rmUlDiQDI">ролик з інтернету</a>
+<br>
+<a href="#ideveloper">якір на параграф ideveloper</a>
+
+<ul>
+    <li>перший элемент списка</li>
+    <li>друий элемент списка</li>
+    <li>третій элемент списка</li>
+</ul>
+
+<ol>
+<li>перший элемент списка</li>
+<li>друий элемент списка</li>
+<li>третій элемент списка</li>
+</ol>
+
+<hr>
+
+<table border="1">
+    <thead>
+    <tr>
+        <th>назва фрукта</th>
+        <th>кількість</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>яблоко</td>
+        <td>2 <img src="img/photo.jpg" height="90"></td>
+    </tr>
+    <tr>
+        <td>апельсин</td>
+        <td>3</td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+        <td colspan="2">Итого: 5</td>
+    </tr>
+    </tfoot>
+</table>
+<h1>контактна форма тест</h1>
+<form action="contact.php" method="post" id="form" class="contact-form">
+    <div class="form-group">
+        <input name="cf_name" type="text" class="form-control" id="contact-name" required placeholder="Ім'я">
+    </div>
+    <div class="form-group">
+        <input name="cf_email" type="email" class="form-control" id="contact-email" required placeholder="Email">
+    </div>
+    <div class="form-group">
+        <textarea name="cf_message" class="form-control" id="message" cols="30" rows="10" required placeholder="Повідомлення"></textarea>
+    </div>
+    <button type="submit" class="btn medilife-btn">Відправити</button>
+</form>
+<h1>контактна форма тест2</h1>
+
 
 </body>
 </html>
